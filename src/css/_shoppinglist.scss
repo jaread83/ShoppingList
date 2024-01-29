@@ -1,0 +1,30 @@
+.shoppingList {
+  background-color: #fff;
+  padding:20px;
+  margin: 0 auto;
+  max-width: 400px;
+  border-radius: 8px;
+  box-shadow: 3px 3px #000;
+}
+
+.shoppingList--form {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+
+  input.input--add {
+    flex: 1;
+    padding: 10px;
+    box-sizing: border-box;
+    display: inline-block;
+    float: left;
+    line-height: normal;
+    margin: 0 10px 0 0;
+    width: 100%;
+    padding: 10px 8px;
+    font-weight: 700;
+    line-height: 1;
+    text-transform: uppercase;
+  }
+}
+
